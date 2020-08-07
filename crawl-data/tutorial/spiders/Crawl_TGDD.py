@@ -9,7 +9,7 @@ class CellphonesSpider(scrapy.Spider):
 
     def parse(self, response):
         if response.status == 200 and response.css('section::attr(class)').get() == 'type0':
-            f = open('newsReports.txt','a',encoding="utf-8")
+            f = open('./Output/TGDD.txt','a',encoding="utf-8")
             data = {
                 'link': response.url,
                 'name': response.css('div.rowtop h1::text').get(),

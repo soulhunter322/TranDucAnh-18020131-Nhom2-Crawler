@@ -2,7 +2,7 @@ import scrapy
 import json
 
 
-class ThanhnienSpider(scrapy.Spider):
+class LaoDongSpider(scrapy.Spider):
     name = 'abe'
     allowed_domains = ['laodong.vn']
     #path_page_bm = 'https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/-'
@@ -14,7 +14,7 @@ class ThanhnienSpider(scrapy.Spider):
         start_urls.append(path_page_i)'''
 
     def parse(self, response):
-            f = open('T1.txt','a',encoding='utf-8')
+            f = open('./Output/laodongReport.txt.txt','a',encoding='utf-8')
         #if response.status == 200 and response.css('meta[property="og:site_name"]::attr("content")').get() == 'VietNamNet':
             data = {
                 'link': response.url,
