@@ -4,7 +4,7 @@ import json
 
 class CellphonesSpider(scrapy.Spider):
     name = 'sena'
-    start_urls = ['https://www.thegioididong.com/dtdd']
+    start_urls = ['https://www.thegioididong.com/']
     CRAWLED_COUNT = 0
 
     def parse(self, response):
