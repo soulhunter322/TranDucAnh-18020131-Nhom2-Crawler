@@ -7,7 +7,7 @@
 
 2.Thu thập trang thương mại điện tử
 -Nguồn: https://www.thegioididong.com/
--Số lượng: 
--Tốc độ:
--Trạng thái:
--Các thông tin:
+-Số lượng: 400 sản phẩm
+-Tốc độ: 15 bài/phút
+-Trạng thái:đã chạy được
+-Các thông tin:link, name, img link, short description, rate, price, specification
