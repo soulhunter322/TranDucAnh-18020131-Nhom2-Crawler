@@ -2,7 +2,7 @@ import scrapy
 import json
 
 
-class CellphonesSpider(scrapy.Spider):
+class TGDDSpider(scrapy.Spider):
     name = 'sena'
     start_urls = ['https://www.thegioididong.com/']
     CRAWLED_COUNT = 0
